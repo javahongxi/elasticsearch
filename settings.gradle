@@ -5,10 +5,15 @@ List projects = [
   'build-tools',
   'rest-api-spec',
   'core',
+//  'docs',
   'client:rest',
+//  'client:rest-high-level',
   'client:sniffer',
   'client:transport',
   'client:test',
+//  'client:client-benchmark-noop-api-plugin',
+//  'client:benchmark',
+//  'benchmarks',
   'test:framework',
   'test:fixtures:example-fixture',
   'test:fixtures:hdfs-fixture',
@@ -50,9 +55,9 @@ List projects = [
   'plugins:repository-s3',
   'plugins:jvm-example',
   'plugins:store-smb',
-        'distribution:integ-test-zip',
-        'distribution:tools:java-version-checker',
-        'distribution:tools:plugin-cli'
+  'distribution:integ-test-zip',
+  'distribution:tools:java-version-checker',
+  'distribution:tools:plugin-cli'
 ]
 
 File examplePluginsDir = new File(rootProject.projectDir, 'plugins/examples')
