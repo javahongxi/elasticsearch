@@ -1,6 +1,6 @@
 h1. Elasticsearch
 
-本分支仅用于ES源码学习，命令编译可能很慢，建议直接在IDEA里进行Gradle编译(先执行 ./gradlew idea)
+本分支仅用于ES源码学习，命令编译可能很慢，建议直接在IDEA里进行Gradle编译(先执行`./gradlew idea`)
 
 h2. A Distributed RESTful Search Engine
 
